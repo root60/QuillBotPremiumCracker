@@ -20,10 +20,16 @@
 
 ---
 
-## 🖼️ Visual Overview
+## 📸 Screenshots
 
 <p align="center">
-  <img src="workflow_diagram.png" width="95%"/>
+  <img src="https://i.ibb.co/VYgJCLhD/ss1.png" width="95%"/>
+</p>
+<p align="center">
+  <img src="https://i.ibb.co/Q3znwN5F/ss2.png" width="95%"/>
+</p>
+<p align="center">
+  <img src="https://i.ibb.co/MyYJhVNK/ss3.png" width="95%"/>
 </p>
 
 ---
