@@ -1,101 +1,91 @@
 # QuillBot Premium Cracker - By RedHydra
 
-## 🚀 Enhanced QuillBot Extension with Futuristic Cyberpunk Theme
+## 🚀 Enhanced QuillBot Extension
 
-A beautiful and feature-packed QuillBot Premium Cracker with a stunning cyberpunk theme.
+A beautifully modern QuillBot Premium Cracker with a clean, sleek, and futuristic interface.
 
 ---
 
 ## ✨ Features
 
-- **🌟 Futuristic Cyberpunk Theme**: Dark theme with cyan/teal accents and glowing effects
-- **⚡ Smooth Animations**: Loading animations, hover effects, and seamless transitions
-- **📱 Fully Responsive**: Optimized for both desktop and mobile screens
-- **♿ Accessibility**: Includes high contrast mode and reduced motion support
-- **🎯 Focus Effects**: Enhanced focus outlines for navigation
-- **🔒 Privacy and Security**: Works with privacy-focused security layers
-- **🌐 Easy Installation**: Simple setup via Chrome's extension page
+- **🌟 Modern User Interface**: A sleek, modern design for a premium feel.
+- **⚡ Smooth Animations**: Seamless transitions, hover effects, and animations.
+- **📱 Fully Responsive**: Perfect experience across desktop and mobile screens.
+- **♿ Accessibility**: High contrast mode and reduced motion for better accessibility.
+- **🎯 Enhanced Focus**: Improved focus indicators for better navigation.
 
 ---
 
 ## 📦 Installation
 
-Follow the steps below to install the extension:
+Follow these steps to install the extension:
 
 1. Download the extension files from the repository.
 2. Open `chrome://extensions/` in Google Chrome.
 3. Enable **Developer mode** at the top right.
 4. Click **Load unpacked** and select the folder containing the extension files.
-5. The extension will be installed, and you can enjoy the QuillBot Premium experience!
+5. The extension will be installed, and you can start using QuillBot with the enhanced features.
 
 ---
 
 ## 🎨 Theme Details
 
 ### Color Palette
-- **Primary Background**: `#0a0a1a` (Deep Space Black)
-- **Secondary Background**: `#1a1a2e` (Dark Navy)
-- **Accent Color**: `#00ffff` (Cyber Cyan)
-- **Text Color**: `#ffffff` (Pure White)
+- **Primary Background**: `#1b1b2f` (Dark Night Blue)
+- **Secondary Background**: `#16213e` (Deep Blue)
+- **Accent Color**: `#00c2ff` (Electric Blue)
+- **Text Color**: `#ffffff` (White)
 
 ### Design Elements
-- Gradient backgrounds
-- Glowing borders and shadows
-- Cyberpunk-inspired typography
-- Futuristic button styles
-
-### Animations and Effects
-- Loading and hover animations
-- Glowing hover effects on buttons and interactive elements
-- Smooth transition animations for elements
-- Custom theme application with CSS injection
+- Minimalistic design
+- Glowing interactive elements
+- Smooth animations and hover effects
 
 ---
 
-## 📝 User Manual
+## 🖼️ Logo
 
-### How to Use
+![Logo](https://i.ibb.co/NdcX02sV/logo.png)  
+*Logo showcasing the futuristic theme*.
 
-1. **Activate the Extension**: After installation, you can immediately start using QuillBot with premium features unlocked.
-2. **Interface**: The UI will now have a futuristic cyberpunk aesthetic, complete with glowing buttons and dark, sleek backgrounds.
-3. **Interaction**: All functionalities, including QuillBot's premium features, work as usual, but now enhanced with visual improvements.
+---
+
+## 📸 Screenshots
+
+- **Main Page UI**:
+  ![Screenshot 1](https://i.ibb.co/VYgJCLhD/ss1.png)
+  
+- **Feature Interface**:
+  ![Screenshot 2](https://i.ibb.co/Q3znwN5F/ss2.png)
+
+- **Settings Page**:
+  ![Screenshot 3](https://i.ibb.co/MyYJhVNK/ss3.png)
 
 ---
 
 ## 🔧 Technical Details
 
 - **Manifest Version**: 3
-- **CSS Injection**: Automatically applies the futuristic theme to QuillBot's website.
-- **Animations**: Uses CSS3 keyframes and transitions for a smooth experience.
-- **Permissions**: The extension uses `cookies`, `storage`, and `tabs` for functionality.
-- **Web Access**: The extension applies the theme and functionality on `https://quillbot.com/*`.
-
----
-
-## 🔧 Files in the Repository
-
-- `manifest.json`: Configuration for the extension.
-- `quillbot.js`: QuillBot functionality integration.
-- `inject.js`: Script to inject the theme and override existing styles.
-- `futuristic-theme.css`: Custom CSS for the cyberpunk theme.
-- `install-popup.html`: HTML for the install popup.
-- `popup.html`, `popup.js`: Popup interface and functionality.
+- **CSS Injection**: Automatically applies the modern theme to QuillBot's website.
+- **Animations**: Utilizes CSS3 keyframes and transitions for smooth effects.
+- **Permissions**: Uses `cookies`, `storage`, and `tabs` for enhanced functionality.
+- **Web Access**: The extension applies its features on `https://quillbot.com/*`.
 
 ---
 
 ## 📄 License
 
-This enhanced version of the QuillBot Premium Cracker is for educational purposes. The original functionality has been preserved, but the user interface has been revamped with a stunning cyberpunk theme.
+This version enhances the original QuillBot Premium Cracker. It’s intended for educational purposes. Enjoy the improved functionality and modern interface.
 
 ---
 
 ## 📣 Credits
 
 - **Original Extension**: Based on QuillBot Premium Cracker
-- **Design**: Cyberpunk theme and enhancements by RedHydra
-- **Icons**: Custom icons with a futuristic look
-- **CSS Framework**: Custom theme system for a futuristic user experience
+- **Design**: Modern interface by RedHydra
+- **Icons**: Custom icons for a sleek, modern look
+- **CSS Framework**: Custom theme with futuristic UI elements
 
 ---
 
-**Enjoy your enhanced QuillBot experience!** 🎮✨
+**Enjoy your enhanced QuillBot Premium experience!** 🎮✨
