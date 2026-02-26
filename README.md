@@ -72,11 +72,11 @@ flowchart TD
     B --> C[Extension interacts with QuillBot API]
     C --> D[Apply premium features and theme]
     D --> E[Display enhanced results]
-    style A fill:#00c2ff,stroke:#ffffff,stroke-width:4px;
+    style A fill:#B2BEB5,stroke:#ffffff,stroke-width:4px;
     style B fill:#1b1b2f,stroke:#ffffff,stroke-width:2px;
     style C fill:#16213e,stroke:#ffffff,stroke-width:2px;
     style D fill:#1b1b2f,stroke:#ffffff,stroke-width:2px;
-    style E fill:#00c2ff,stroke:#ffffff,stroke-width:2px;
+    style E fill:#B2BEB5,stroke:#ffffff,stroke-width:2px;
 ```
 ---
 
