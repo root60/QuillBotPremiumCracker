@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuillBot Premium Unlocker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            min-width: 600px;
+            min-height: 500px;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(0, 255, 255, 0.05) 0%, transparent 50%);
+            animation: backgroundMove 20s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        @keyframes backgroundMove {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-20px, -20px) scale(1.1); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header h1 {
+            font-size: 42px;
+            color: #00ffff;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.6), 0 0 40px rgba(0, 255, 255, 0.3);
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #b0b0b0;
+            font-weight: 300;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            width: 100%;
+            max-width: 500px;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn {
+            width: 100%;
+            padding: 20px 30px;
+            background: linear-gradient(45deg, #00ffff, #00cccc);
+            color: #0a0a1a;
+            border: 2px solid transparent;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(0, 255, 255, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #00cccc, #00ffff);
+            box-shadow: 0 12px 35px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.4);
+            transform: translateY(-5px) scale(1.02);
+            border-color: #00ffff;
+        }
+
+        .btn:active {
+            transform: translateY(-2px) scale(0.98);
+        }
+
+        .btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            animation: fadeIn 1.5s ease-out 0.6s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .icon-wrapper {
+            display: inline-block;
+            margin-right: 12px;
+            font-size: 24px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 32px;
+            }
+            .btn {
+                padding: 18px 25px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 QuillBot Premium Unlocker</h1>
+            <p>By RedHydra</p>
+        </div>
+        
+        <div class="buttons-container">
+            <!-- Single GitHub link replacing all social links -->
+            <a href="https://github.com/root60" target="_blank" class="btn" id="githubBtn">
+                <span class="icon-wrapper">🐙</span>
+                <span>Visit GitHub Repository</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Made for Educational Purpose Only</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+

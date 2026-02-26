@@ -1,0 +1,232 @@
+/* 
+ * Futuristic Cyberpunk Theme for QuillBot Extension
+ * Created by: [Your Name]
+ * Version: 1.0.0
+ * Description: A beautiful futuristic theme with cyberpunk aesthetics
+ */
+
+/* Global Variables */
+:root {
+  --primary-bg: #0a0a1a;
+  --secondary-bg: #1a1a2e;
+  --accent-bg: #16213e;
+  --primary-text: #ffffff;
+  --secondary-text: #b0b0b0;
+  --accent-color: #00ffff;
+  --accent-hover: #00cccc;
+  --accent-glow: #00ffff33;
+  --border-color: #00ffff;
+  --error-color: #ff4757;
+  --success-color: #2ed573;
+  --warning-color: #ffa502;
+}
+
+/* Global Overrides */
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Main Container Styles */
+body {
+  background: linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 100%) !important;
+  color: var(--primary-text) !important;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif !important;
+}
+
+/* Header and Navigation */
+.MuiAppBar-root,
+[class*="AppBar"],
+header {
+  background: linear-gradient(90deg, var(--secondary-bg) 0%, var(--accent-bg) 100%) !important;
+  border-bottom: 2px solid var(--accent-color) !important;
+  box-shadow: 0 4px 20px var(--accent-glow) !important;
+}
+
+/* Paper and Card Components */
+.MuiPaper-root,
+[class*="Paper"],
+.card,
+[class*="card"] {
+  background: var(--secondary-bg) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--accent-color) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px var(--accent-glow) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Button Styles */
+.MuiButton-root,
+button,
+[class*="button"],
+[class*="Button"] {
+  background: linear-gradient(45deg, var(--accent-color), var(--accent-hover)) !important;
+  color: var(--primary-bg) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  box-shadow: 0 4px 15px var(--accent-glow) !important;
+}
+
+.MuiButton-root:hover,
+button:hover,
+[class*="button"]:hover,
+[class*="Button"]:hover {
+  background: linear-gradient(45deg, var(--accent-hover), var(--accent-color)) !important;
+  box-shadow: 0 6px 20px var(--accent-glow) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Input Fields */
+.MuiInputBase-root,
+.MuiTextField-root,
+input,
+textarea,
+[class*="input"],
+[class*="Input"] {
+  background: var(--accent-bg) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--accent-color) !important;
+  border-radius: 8px !important;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.MuiInputBase-root:focus,
+.MuiTextField-root:focus,
+input:focus,
+textarea:focus,
+[class*="input"]:focus,
+[class*="Input"]:focus {
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 3px var(--accent-glow) !important;
+}
+
+/* Links */
+a {
+  color: var(--accent-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--accent-hover) !important;
+  text-shadow: 0 0 8px var(--accent-glow) !important;
+}
+
+/* Sliders and Progress Bars */
+.MuiSlider-root,
+[class*="slider"],
+[class*="Slider"] {
+  color: var(--accent-color) !important;
+}
+
+.MuiLinearProgress-root,
+[class*="progress"],
+[class*="Progress"] {
+  background-color: var(--accent-bg) !important;
+}
+
+.MuiLinearProgress-bar,
+[class*="progress-bar"] {
+  background: linear-gradient(90deg, var(--accent-color), var(--accent-hover)) !important;
+}
+
+/* Dropdown and Select */
+.MuiSelect-root,
+.MuiMenuItem-root,
+select,
+option,
+[class*="select"],
+[class*="Select"] {
+  background: var(--secondary-bg) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--accent-color) !important;
+}
+
+/* Tooltips */
+.MuiTooltip-tooltip,
+[class*="tooltip"] {
+  background: var(--secondary-bg) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--accent-color) !important;
+  box-shadow: 0 4px 20px var(--accent-glow) !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, var(--accent-color), var(--accent-hover)) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover) !important;
+}
+
+/* Text Selection */
+::selection {
+  background: var(--accent-glow) !important;
+  color: var(--primary-text) !important;
+}
+
+/* Specific QuillBot Elements */
+[class*="quill"],
+[class*="Quill"] {
+  background: var(--secondary-bg) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--accent-color) !important;
+}
+
+/* Loading Animations */
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 5px var(--accent-color); }
+  50% { box-shadow: 0 0 20px var(--accent-color), 0 0 30px var(--accent-color); }
+}
+
+.loading,
+[class*="loading"] {
+  animation: glow 2s ease-in-out infinite !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .MuiPaper-root,
+  [class*="Paper"] {
+    margin: 8px !important;
+    border-radius: 8px !important;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  :root {
+    --accent-color: #ffffff;
+    --accent-hover: #cccccc;
+    --border-color: #ffffff;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Dark Mode Enhancement */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--primary-bg) !important;
+  }
+}
+
