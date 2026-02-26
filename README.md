@@ -65,24 +65,19 @@
 
 The system architecture of the QuillBot Premium Cracker consists of multiple layers to ensure smooth functionality and seamless user experience:
 
-1. **Browser Extension**:  
-   The extension injects custom CSS and JavaScript into the QuillBot website, unlocking premium features and applying the dark theme.
 
-2. **User Interaction Layer**:  
-   This layer includes all UI elements such as buttons, inputs, and popups. It handles user actions such as enabling premium features and adjusting settings.
-
-3. **QuillBot API Integration**:  
-   The extension interacts with QuillBot’s API to apply premium features. This communication happens seamlessly behind the scenes to maintain the user experience.
-
-4. **Data Storage**:  
-   User preferences and settings (such as theme choices) are stored locally in the browser’s storage, allowing for a persistent user experience between sessions.
-
-5. **Event Handling**:  
-   The extension listens for user interactions (like button clicks) and triggers the appropriate actions (e.g., unlocking premium features, switching themes).
-
-6. **Performance Optimization**:  
-   The extension ensures smooth performance by optimizing JavaScript execution and minimizing unnecessary DOM manipulations. CSS3 animations and transitions are used to enhance the visual experience.
-
+```mermaid
+flowchart TD
+    A[Load Extension UI] --> B[User enters text]
+    B --> C[Extension interacts with QuillBot API]
+    C --> D[Apply premium features and theme]
+    D --> E[Display enhanced results]
+    style A fill:#00c2ff,stroke:#ffffff,stroke-width:4px;
+    style B fill:#1b1b2f,stroke:#ffffff,stroke-width:2px;
+    style C fill:#16213e,stroke:#ffffff,stroke-width:2px;
+    style D fill:#1b1b2f,stroke:#ffffff,stroke-width:2px;
+    style E fill:#00c2ff,stroke:#ffffff,stroke-width:2px;
+```
 ---
 
 ## 📦 Installation
@@ -112,9 +107,8 @@ This extension is an enhancement for the original QuillBot Premium Cracker. It i
 
 ## 🙌 Credits
 
-- **Original Extension**: QuillBot Premium Cracker  
-- **Design & Theme**: RedHydra  
-- **Icons & Assets**: Custom designed by RedHydra  
+- **Design & Customized**: RedHydra  
+
 
 ---
 
