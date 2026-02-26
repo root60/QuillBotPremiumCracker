@@ -102,7 +102,7 @@ We will start by adding a glowing hover effect on buttons to make the UI feel mo
 ### 2. Animation on Page Load (CSS)
 Make the page elements "fade-in" and scale up as the user visits the page.
 
-```html id="9luz6a"
+```html id="1s35jq"
 <style>
   /* Fade-in and Scale Effect */
   body {
@@ -119,7 +119,7 @@ Make the page elements "fade-in" and scale up as the user visits the page.
 ### 3. Floating Animation Effect (CSS)
 A floating animation effect that makes the elements on the page feel alive and moving.
 
-```html id="rcxj2e"
+```html id="ta4pwn"
 <style>
   /* Floating Animation */
   .floating {
@@ -127,12 +127,8 @@ A floating animation effect that makes the elements on the page feel alive and m
   }
 
   @keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
   }
 </style>
 
@@ -142,7 +138,7 @@ A floating animation effect that makes the elements on the page feel alive and m
 ### 4. Interactive Scroll Animation (JS & CSS)
 Create an effect that triggers animations when the user scrolls to a certain section of the page.
 
-```html id="73t70r"
+```html id="re3afz"
 <style>
   /* Initial Hidden State */
   .scroll-animation {
@@ -162,7 +158,7 @@ Create an effect that triggers animations when the user scrolls to a certain sec
 </div>
 
 <script>
-  // JavaScript to detect scroll and trigger the animation
+  // JavaScript to detect scroll and trigger the scroll animation
   window.addEventListener('scroll', () => {
     const element = document.getElementById('scrollElement');
     const position = element.getBoundingClientRect();
