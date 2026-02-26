@@ -7,10 +7,9 @@ A beautifully modern QuillBot Premium Cracker with a clean, sleek, and futuristi
 
 ---
 
-## 🖼️ Logo
 
-![Logo](https://i.ibb.co/NdcX02sV/logo.png =150x)  
-*Logo showcasing the futuristic theme*.
+<img src="https://i.ibb.co/NdcX02sV/logo.png" alt="Logo" id="logo" style="width:150px; transition: transform 0.3s ease-in-out;" />  
+*Logo showcasing the futuristic theme*
 
 ---
 
