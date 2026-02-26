@@ -51,6 +51,40 @@
 
 ---
 
+## 🛠️ Functions
+
+- **Unlock Premium Features**: Provides access to all premium functionalities within QuillBot, such as enhanced writing tools, unlimited word usage, and other exclusive options.
+- **Customizable Theme**: Automatically applies a futuristic dark mode theme to the QuillBot interface, which can be toggled via the extension.
+- **Enhanced UI Components**: Optimized buttons, inputs, and dialog boxes for a smoother user experience.
+- **Integrated Hover Effects**: Engaging hover effects on buttons and clickable elements to provide a more intuitive interface.
+- **Responsive Layout**: Adapts seamlessly across various screen sizes, ensuring that the QuillBot experience is fluid on both desktop and mobile devices.
+
+---
+
+## ⚙️ System Architecture
+
+The system architecture of the QuillBot Premium Cracker consists of multiple layers to ensure smooth functionality and seamless user experience:
+
+1. **Browser Extension**:  
+   The extension injects custom CSS and JavaScript into the QuillBot website, unlocking premium features and applying the dark theme.
+
+2. **User Interaction Layer**:  
+   This layer includes all UI elements such as buttons, inputs, and popups. It handles user actions such as enabling premium features and adjusting settings.
+
+3. **QuillBot API Integration**:  
+   The extension interacts with QuillBot’s API to apply premium features. This communication happens seamlessly behind the scenes to maintain the user experience.
+
+4. **Data Storage**:  
+   User preferences and settings (such as theme choices) are stored locally in the browser’s storage, allowing for a persistent user experience between sessions.
+
+5. **Event Handling**:  
+   The extension listens for user interactions (like button clicks) and triggers the appropriate actions (e.g., unlocking premium features, switching themes).
+
+6. **Performance Optimization**:  
+   The extension ensures smooth performance by optimizing JavaScript execution and minimizing unnecessary DOM manipulations. CSS3 animations and transitions are used to enhance the visual experience.
+
+---
+
 ## 📦 Installation
 
 1. Download the extension files from this repository.
@@ -61,13 +95,8 @@
 
 ---
 
-## 🛠️ Theme & Technical Details
+## 🛠️ Technical Details
 
-- **Color Palette**:  
-  - Primary: `#1b1b2f` (Dark Night Blue)  
-  - Secondary: `#16213e` (Deep Blue)  
-  - Accent: `#00c2ff` (Electric Blue)  
-  - Text: `#ffffff` (White)  
 - **Manifest Version**: 3  
 - **CSS Injection**: Applies the dark theme and UI enhancements automatically on QuillBot’s pages.  
 - **Permissions**: Uses `cookies`, `storage`, and `tabs` for enhanced functionality.  
